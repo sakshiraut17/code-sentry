@@ -1,10 +1,3 @@
-import os
-import sys
-from google import genai
-from google.genai import types
-
-from tools import scan_vulnerabilities
-from prompts import SYSTEM_PROMPT
 
 def run_code_sentry(query: str, code_snippet: str):
     """
